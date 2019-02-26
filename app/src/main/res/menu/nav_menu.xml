@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="ikinci bolum">
+        <menu >
+            <item
+                android:id="@+id/action_uc"
+                android:title="Uc" />
+            <item
+                android:id="@+id/action_dort"
+                android:title="Dort" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/birincibolum"
+        android:title="birinci bolum" >
+        <menu >
+            <item
+                android:id="@+id/action_bir"
+                android:title="bir" />
+            <item
+                android:id="@+id/action_iki"
+                android:title="iki" />
+        </menu>
+    </item>
+</menu>
